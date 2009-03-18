@@ -32,6 +32,8 @@ public class ToolBarUnit {
 			"4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15",
 			"16", "17", "18", "19", "20" };
 	private Display display;
+	private String IMAGE_PATH = "tool\\";
+
 	/**
 	 * @uml.property  name="menuBar"
 	 * @uml.associationEnd  
@@ -49,78 +51,78 @@ public class ToolBarUnit {
 	}
 
 	private void createContents(ToolBar toolBar) {
-		ToolItem newPaper = createToolItem("New paper", "tool/new.png",
-				"tool/new.png", SWT.PUSH);
+		ToolItem newPaper = createToolItem("New paper", "new.png",
+				"new.png", SWT.PUSH);
 		newPaper.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.newPaper();
 			}
 		});
-		ToolItem save = createToolItem("save", "tool/save.png",
-				"tool/save.png", SWT.PUSH);
+		ToolItem save = createToolItem("save", "save.png",
+				"save.png", SWT.PUSH);
 		save.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.save();
 			}
 		});
-		ToolItem print = createToolItem("print", "tool/print.png",
-				"tool/print.png", SWT.PUSH);
+		ToolItem print = createToolItem("print", "print.png",
+				"print.png", SWT.PUSH);
 		print.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.print();
 			}
 		});
-		ToolItem undo = createToolItem("Undo", "tool/undo.png",
-				"tool/hotUndo.png", SWT.PUSH);
+		ToolItem undo = createToolItem("Undo", "undo.png",
+				"hotundo.png", SWT.PUSH);
 		undo.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.undo();
 			}
 		});
-		ToolItem redo = createToolItem("Redo", "tool/redo.png",
-				"tool/hotRedo.png", SWT.PUSH);
+		ToolItem redo = createToolItem("Redo", "redo.png",
+				"hotredo.png", SWT.PUSH);
 		redo.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.redo();
 			}
 		});
-		ToolItem zoomIn = createToolItem("Zoom in", "tool/zoomIn.png",
-				"tool/zoomIn.png", SWT.PUSH);
+		ToolItem zoomIn = createToolItem("Zoom in", "zoomIn.png",
+				"zoomIn.png", SWT.PUSH);
 		zoomIn.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.zoomIn();
 			}
 		});
-		ToolItem zoomOut = createToolItem("Zoom out", "tool/zoomOut.png",
-				"tool/zoomOut.png", SWT.PUSH);
+		ToolItem zoomOut = createToolItem("Zoom out", "zoomOut.png",
+				"zoomOut.png", SWT.PUSH);
 		zoomOut.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.zoomOut();
 			}
 		});
 		ToolItem flipHorizontal = createToolItem("Flip Horizontal",
-				"tool/flipHorizontal.png", "tool/flipHorizontal.png", SWT.PUSH);
+				"flipHorizontal.png", "flipHorizontal.png", SWT.PUSH);
 		flipHorizontal.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.flipHorizontal();
 			}
 		});
 		ToolItem flipVertical = createToolItem("Flip Vertical",
-				"tool/flipVertical.png", "tool/flipVertical.png", SWT.PUSH);
+				"flipvertical.png", "flipvertical.png", SWT.PUSH);
 		flipVertical.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.flipVertical();
 			}
 		});
-		ToolItem snapshot = createToolItem("Takesnapshot", "tool/snapshot.png",
-				"tool/snapshot.png", SWT.PUSH);
+		ToolItem snapshot = createToolItem("Takesnapshot", "snapshot.png",
+				"snapshot.png", SWT.PUSH);
 		snapshot.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.snapshot();
 			}
 		});
 		ToolItem loadSnapshot = createToolItem("Load snapshot",
-				"tool/snapshot2.png", "tool/snapshot2.png", SWT.PUSH);
+				"snapshot2.png", "snapshot2.png", SWT.PUSH);
 		loadSnapshot.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				menuBar.restoreSnapshot();
@@ -174,12 +176,12 @@ public class ToolBarUnit {
 		ToolItem item = new ToolItem(toolBar, type);
 		item.setToolTipText(toolTip);
 		Image image = new Image(display, ToolBarUnit.class
-				.getResourceAsStream(img));
+				.getResourceAsStream(IMAGE_PATH + img));
 		images.add(image);
 		item.setImage(image);
 		if (!img.equals(hotImg)) {
 			Image hotImage = new Image(display, ToolBarUnit.class
-					.getResourceAsStream(hotImg));
+					.getResourceAsStream(IMAGE_PATH + hotImg));
 			item.setHotImage(hotImage);
 			images.add(hotImage);
 		}
