@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="826,627" id="UI" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030205061696E742042727573682F4D6F7374616661204577656461204C6170">
+  <children xsi:type="editmodel:ClassEditModel" name="Application" location="50,50" size="180,319" id="UI/Application" runTimeClassModel="main([Ljava.lang.String;),zoomOut(),dispose(),getInstance(),setCursor(Lorg.eclipse.swt.graphics.Cursor;),zoom,width,origin,image,shapes,refresh(),addPaintable(LCore.plugins.ShapeIF;),color,zoomIn(),run(),zoom(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="color" id="UI/Application#color"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="image" id="UI/Application#image"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="origin" id="UI/Application#origin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shapes" id="UI/Application#shapes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="UI/Application#width"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zoom" id="UI/Application#zoom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,162">
+      <children xsi:type="editmodel:MethodEditModel" name="addPaintable" id="UI/Application#addPaintable(LCore.plugins.ShapeIF;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="UI/Application#dispose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="UI/Application#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="UI/Application#refresh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="UI/Application#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCursor" id="UI/Application#setCursor(Lorg.eclipse.swt.graphics.Cursor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoom" id="UI/Application#zoom(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoomIn" id="UI/Application#zoomIn()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoomOut" id="UI/Application#zoomOut()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ImageMode" location="217,419" size="117,85" id="UI/ImageMode" runTimeClassModel="main([Ljava.lang.String;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,36">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="UI/ImageMode#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="UI/ImageMode#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MenuBarUnit" location="280,50" size="190,121" id="UI/MenuBarUnit" runTimeClassModel="dispose(),getInstance(),MenuBarUnit(Lorg.eclipse.swt.widgets.Shell;),fILTERS_IMPORT">
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="fILTERS_IMPORT" id="UI/MenuBarUnit#fILTERS_IMPORT"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MenuBarUnit" id="UI/MenuBarUnit#MenuBarUnit(Lorg.eclipse.swt.widgets.Shell;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="UI/MenuBarUnit#dispose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="UI/MenuBarUnit#getInstance()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Palette" location="690,50" size="116,103" id="UI/Palette" runTimeClassModel="createPalette(),getInstance(Lorg.eclipse.swt.widgets.Shell;Lorg.eclipse.swt.graphics.Image;),choseColor()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,54">
+      <children xsi:type="editmodel:MethodEditModel" name="choseColor" id="UI/Palette#choseColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createPalette" id="UI/Palette#createPalette()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="UI/Palette#getInstance(Lorg.eclipse.swt.widgets.Shell;Lorg.eclipse.swt.graphics.Image;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Statistic" location="384,419" size="92,85" id="UI/Statistic" runTimeClassModel="open(),Statistic(Lorg.eclipse.swt.widgets.Shell;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Statistic" id="UI/Statistic#Statistic(Lorg.eclipse.swt.widgets.Shell;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="open" id="UI/Statistic#open()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolBarUnit" location="50,419" size="117,85" id="UI/ToolBarUnit" runTimeClassModel="dispose(),ToolBarUnit(Lorg.eclipse.swt.widgets.ToolBar;LUI.MenuBarUnit;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ToolBarUnit" id="UI/ToolBarUnit#ToolBarUnit(Lorg.eclipse.swt.widgets.ToolBar;LUI.MenuBarUnit;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="UI/ToolBarUnit#dispose()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ToolBoxUnit" location="520,50" size="120,103" id="UI/ToolBoxUnit" runTimeClassModel="getInstance(Lorg.eclipse.swt.widgets.Shell;Lorg.eclipse.swt.widgets.Canvas;),dispose(),getInstance(),importShape(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
+      <children xsi:type="editmodel:MethodEditModel" name="dispose" id="UI/ToolBoxUnit#dispose()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="UI/ToolBoxUnit#getInstance(Lorg.eclipse.swt.widgets.Shell;Lorg.eclipse.swt.widgets.Canvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="importShape" id="UI/ToolBoxUnit#importShape(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

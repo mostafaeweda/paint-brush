@@ -1,0 +1,24 @@
+<LoadedFile>
+
+<Shape>
+<Definition name = "circle"/>
+<Points>
+	<Point x="1" y="2"/>
+	<Point x="3" y="4"/>
+</Points>
+<Color red="10" green="20" blue="30"/>
+<Filled bool ="false"/>
+</Shape>
+
+<Shape>
+<Definition name = "triangle"/>
+<Points>
+	<Point x="5" y="6"/>
+	<Point x="7" y="8"/>
+	<Point x="9" y="10"/>
+</Points>
+<Color red="40" green="50" blue="60"/>
+<Filled bool ="false"/>
+</Shape>
+
+</LoadedFile>
