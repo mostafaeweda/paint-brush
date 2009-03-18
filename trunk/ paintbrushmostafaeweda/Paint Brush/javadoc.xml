@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="E:\COLLEGE\eclipse\plugins\org.eclipse.ui.workbench_3.4.0.I20080606-1300.jar;E:\COLLEGE\eclipse\plugins\org.eclipse.equinox.common_3.4.0.v20080421-2006.jar;E:\COLLEGE\eclipse\plugins\org.eclipse.jface_3.4.0.I20080606-1300.jar;../org.eclipse.swt;E:\COLLEGE\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.4.0.v3448f.jar;E:\COLLEGE\eclipse\plugins\org.eclipse.osgi_3.4.0.v20080605-1900.jar;E:\COLLEGE\eclipse\plugins\org.eclipse.core.commands_3.4.0.I20080509-2000.jar" destdir="../Paint%20Brush/doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="Core,Core.Tools,Core.plugins,Commands,UI,XML" source="1.6" sourcepath="src" splitindex="true" use="true" version="true">
+            <link href="file:/E:/COLLEGE/Workspace/Paint%2520Brush/doc/"/>
+        </javadoc>
+    </target>
+</project>

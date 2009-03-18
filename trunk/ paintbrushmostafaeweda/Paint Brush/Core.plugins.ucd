@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1941,3433" id="Core.plugins" metadata="uml2-1.0" initialized="true" scrolledX="750" scrolledY="1449" tag="1000" key="32303037303533312D31303030205061696E742042727573682F4D6F7374616661204577656461204C6170">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="ShapeFactory" location="311,3141" size="235,272" id="Core.plugins/ShapeFactory" runTimeClassModel="createShape(Ljava.lang.String;),Core.plugins.ShapeFactory.ClassComposite,getInstance(),importClasses(),importClass(Ljava.lang.Class;),getClassElement(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,90">
+      <children xsi:type="editmodel:MethodEditModel" name="createShape" id="Core.plugins/ShapeFactory#createShape(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getClassElement" id="Core.plugins/ShapeFactory#getClassElement(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="Core.plugins/ShapeFactory#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="importClass" id="Core.plugins/ShapeFactory#importClass(Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="importClasses" id="Core.plugins/ShapeFactory#importClasses()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="212,123">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="ClassComposite" location="14247,9971" size="212,121" id="Core.plugins/ShapeFactory$ClassComposite" runTimeClassModel="iconPath,ClassComposite(Ljava.lang.reflect.Constructor;Ljava.lang.String;Ljava.lang.String;),toolTipText,constructor">
+        <children xsi:type="editmodel:CompartmentEditModel" size="189,54">
+          <children xsi:type="editmodel:AttributeEditModel" name="constructor" id="Core.plugins/ShapeFactory$ClassComposite#constructor"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="iconPath" id="Core.plugins/ShapeFactory$ClassComposite#iconPath"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="toolTipText" id="Core.plugins/ShapeFactory$ClassComposite#toolTipText"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+          <children xsi:type="editmodel:MethodEditModel" name="ClassComposite" id="Core.plugins/ShapeFactory$ClassComposite#ClassComposite(Ljava.lang.reflect.Constructor;Ljava.lang.String;Ljava.lang.String;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/ShapeFactory$ClassComposite-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.0/@children.2/@children.0" target="//@children.3" targetEnd="//@children.0/@children.2/@children.0/@sourceConnections.0/@children.2" label="//@children.0/@children.2/@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@children.2/@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+          <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="34,0" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="129,274"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="Core.plugins/ShapeFactory@factory+Core.plugins/ShapeFactory@" source="//@children.0" target="//@children.0" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="factory" location="0,20" id="Core.plugins/ShapeFactory@factory+Core.plugins/ShapeFactory@|Core.plugins/ShapeFactory#factory" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.2" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" orderingLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - factory" location="259,3168" size="45,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="270,3140" size="34,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="286,3182" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="Core.plugins/ShapeFactory@factory+Core.plugins/ShapeFactory@|Core.plugins/ShapeFactory#" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/ShapeFactory-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,379"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/ShapeFactory-Soyatec::Import->Core.plugins/ShapeFactory$ClassComposite" source="//@children.0" target="//@children.0/@children.2/@children.0" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="235,218" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.7/@sourceConnections.1 //@children.8/@sourceConnections.1" name="GraphicsUtils" location="50,50" size="125,225" id="Core/GraphicsUtils" runTimeClassModel="intersection(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;),onLine(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;),area([Lorg.eclipse.swt.graphics.Point;),liesBetween([ILorg.eclipse.swt.graphics.Point;),rounded(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;),rotatePoint(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;D),fisaghors(IIZ),getSlope(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;),insidePolygon(Lorg.eclipse.swt.graphics.Point;Ljava.util.ArrayList;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,162">
+      <children xsi:type="editmodel:MethodEditModel" name="area" id="Core/GraphicsUtils#area([Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fisaghors" id="Core/GraphicsUtils#fisaghors(IIZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSlope" id="Core/GraphicsUtils#getSlope(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insidePolygon" id="Core/GraphicsUtils#insidePolygon(Lorg.eclipse.swt.graphics.Point;Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intersection" id="Core/GraphicsUtils#intersection(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="liesBetween" id="Core/GraphicsUtils#liesBetween([ILorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onLine" id="Core/GraphicsUtils#onLine(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotatePoint" id="Core/GraphicsUtils#rotatePoint(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rounded" id="Core/GraphicsUtils#rounded(Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;Lorg.eclipse.swt.graphics.Point;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ImageShape" location="829,2060" size="157,535" id="Core.plugins/ImageShape" runTimeClassModel="setFilled(Z),select(),getColor(),rotate(D),readExternal(Ljava.io.ObjectInput;),draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),getAddedPoints(),selected,addPoint(II),getToolType(),ImageShape(Lorg.eclipse.swt.graphics.Image;Ljava.lang.String;),setWidth(I),points,addable(),getWidth(),draw(Lorg.eclipse.swt.graphics.GC;),relocate(II),calculateCenter(),contains(Lorg.eclipse.swt.graphics.Point;),deselect(),zoom(I),writeExternal(Ljava.io.ObjectOutput;),setColor(Lorg.eclipse.swt.graphics.Color;),getBounds(),flip(I),getFilled(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="points" id="Core.plugins/ImageShape#points"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selected" id="Core.plugins/ImageShape#selected"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,450">
+      <children xsi:type="editmodel:MethodEditModel" name="ImageShape" id="Core.plugins/ImageShape#ImageShape(Lorg.eclipse.swt.graphics.Image;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/ImageShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/ImageShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCenter" id="Core.plugins/ImageShape#calculateCenter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="Core.plugins/ImageShape#contains(Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/ImageShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deselect" id="Core.plugins/ImageShape#deselect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/ImageShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/ImageShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flip" id="Core.plugins/ImageShape#flip(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAddedPoints" id="Core.plugins/ImageShape#getAddedPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="Core.plugins/ImageShape#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColor" id="Core.plugins/ImageShape#getColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFilled" id="Core.plugins/ImageShape#getFilled()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/ImageShape#getToolType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidth" id="Core.plugins/ImageShape#getWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readExternal" id="Core.plugins/ImageShape#readExternal(Ljava.io.ObjectInput;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="relocate" id="Core.plugins/ImageShape#relocate(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotate" id="Core.plugins/ImageShape#rotate(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="Core.plugins/ImageShape#select()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColor" id="Core.plugins/ImageShape#setColor(Lorg.eclipse.swt.graphics.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFilled" id="Core.plugins/ImageShape#setFilled(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWidth" id="Core.plugins/ImageShape#setWidth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeExternal" id="Core.plugins/ImageShape#writeExternal(Ljava.io.ObjectOutput;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoom" id="Core.plugins/ImageShape#zoom(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/ImageShape-Soyatec::Import->Core.plugins/ShapeIF*Core.plugins/ImageShape-Soyatec::Implement->Core.plugins/ShapeIF" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Implement»" size="94,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="11,441"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/ShapeIF&lt;-Core.plugins/ImageShape" source="//@children.2" target="//@children.4/@sourceConnections.2" targetEnd="//@children.2/@sourceConnections.1/@children.1" sourceEnd="//@children.2/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.4/@sourceConnections.2 //@children.9/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.0 //@children.10/@sourceConnections.1 //@children.11/@sourceConnections.1 //@children.12/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.0/@children.2/@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1" name="ShapeIF" location="962,1569" size="129,441" id="Core.plugins/ShapeIF" runTimeClassModel="select(),draw(Lorg.eclipse.swt.graphics.GC;),relocate(II),width,rotate(D),calculateCenter(),contains(Lorg.eclipse.swt.graphics.Point;),filled,getPoints(),getAddedPoints(),draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),addPoint(II),getToolType(),color,deselect(),zoom(I),getBounds(),addable(),isSelected(),flip(I),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="color" id="Core.plugins/ShapeIF#color"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="filled" id="Core.plugins/ShapeIF#filled"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="Core.plugins/ShapeIF#width"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,324">
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/ShapeIF#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/ShapeIF#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCenter" id="Core.plugins/ShapeIF#calculateCenter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="Core.plugins/ShapeIF#contains(Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/ShapeIF#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deselect" id="Core.plugins/ShapeIF#deselect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/ShapeIF#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/ShapeIF#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flip" id="Core.plugins/ShapeIF#flip(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAddedPoints" id="Core.plugins/ShapeIF#getAddedPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="Core.plugins/ShapeIF#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPoints" id="Core.plugins/ShapeIF#getPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/ShapeIF#getToolType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSelected" id="Core.plugins/ShapeIF#isSelected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="relocate" id="Core.plugins/ShapeIF#relocate(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotate" id="Core.plugins/ShapeIF#rotate(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="Core.plugins/ShapeIF#select()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoom" id="Core.plugins/ShapeIF#zoom(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.1 //@children.9/@sourceConnections.2 //@children.5/@sourceConnections.2 //@children.7/@sourceConnections.2 //@children.10/@sourceConnections.2 //@children.11/@sourceConnections.2 //@children.12/@sourceConnections.1 //@children.8/@sourceConnections.2" name="AbstractShape" location="1079,2060" size="134,355" id="Core.plugins/AbstractShape" runTimeClassModel="select(),draw(Lorg.eclipse.swt.graphics.GC;),relocate(II),rotate(D),readExternal(Ljava.io.ObjectInput;),calculateCenter(),contains(Lorg.eclipse.swt.graphics.Point;),filled,AbstractShape(),getAddedPoints(),addPoint(II),getToolType(),deselect(),zoom(I),writeExternal(Ljava.io.ObjectOutput;),getBounds(),flip(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="filled" id="Core.plugins/AbstractShape#filled"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,288">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractShape" id="Core.plugins/AbstractShape#AbstractShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/AbstractShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCenter" id="Core.plugins/AbstractShape#calculateCenter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="Core.plugins/AbstractShape#contains(Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deselect" id="Core.plugins/AbstractShape#deselect()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/AbstractShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flip" id="Core.plugins/AbstractShape#flip(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAddedPoints" id="Core.plugins/AbstractShape#getAddedPoints()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="Core.plugins/AbstractShape#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/AbstractShape#getToolType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readExternal" id="Core.plugins/AbstractShape#readExternal(Ljava.io.ObjectInput;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="relocate" id="Core.plugins/AbstractShape#relocate(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotate" id="Core.plugins/AbstractShape#rotate(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="Core.plugins/AbstractShape#select()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeExternal" id="Core.plugins/AbstractShape#writeExternal(Ljava.io.ObjectOutput;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="zoom" id="Core.plugins/AbstractShape#zoom(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/AbstractShape-Soyatec::Implement->Core.plugins/ShapeIF" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="122,441"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/AbstractShape-Standard::Call->Core/GraphicsUtils" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,225"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.1" autoLocated="true" id="Core.plugins/ShapeIF&lt;-Core.plugins/AbstractShape" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.1" sourceEnd="//@children.4/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,5" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,441" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SquareShape" location="758,2645" size="129,247" id="Core.plugins/SquareShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),addPoint(II),getShapeName(),getToolType(),getToolTip(),getIconPath(),draw(Lorg.eclipse.swt.graphics.GC;),fixedPoint,addable(),SquareShape(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="fixedPoint" id="Core.plugins/SquareShape#fixedPoint"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,180">
+      <children xsi:type="editmodel:MethodEditModel" name="SquareShape" id="Core.plugins/SquareShape#SquareShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/SquareShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/SquareShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/SquareShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/SquareShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/SquareShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/SquareShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/SquareShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/SquareShape#getToolTip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/SquareShape#getToolType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/SquareShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,441"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/SquareShape-Standard::Call->Core/GraphicsUtils" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,225"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/SquareShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,287"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/SquareShape" source="//@children.5" target="//@children.9/@sourceConnections.2" targetEnd="//@children.5/@sourceConnections.3/@children.1" sourceEnd="//@children.5/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EraserShape" location="596,2978" size="126,157" id="Core.plugins/EraserShape" runTimeClassModel="EraserShape(),draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),getShapeName(),getToolTip(),getIconPath(),draw(Lorg.eclipse.swt.graphics.GC;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,108">
+      <children xsi:type="editmodel:MethodEditModel" name="EraserShape" id="Core.plugins/EraserShape#EraserShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/EraserShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/EraserShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/EraserShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/EraserShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/EraserShape#getToolTip()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/EraserShape-Standard::Derive->Core.plugins/FreePenShape" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,211"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/FreePenShape&lt;-Core.plugins/EraserShape" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,211"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CircleShape" location="917,2645" size="128,283" id="Core.plugins/CircleShape" runTimeClassModel="getShapeName(),getToolTip(),draw(Lorg.eclipse.swt.graphics.GC;),calculateCenter(),contains(Lorg.eclipse.swt.graphics.Point;),draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),addPoint(II),getToolType(),getIconPath(),CircleShape(),getBounds(),addable(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,234">
+      <children xsi:type="editmodel:MethodEditModel" name="CircleShape" id="Core.plugins/CircleShape#CircleShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/CircleShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/CircleShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCenter" id="Core.plugins/CircleShape#calculateCenter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="Core.plugins/CircleShape#contains(Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/CircleShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/CircleShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/CircleShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBounds" id="Core.plugins/CircleShape#getBounds()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/CircleShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/CircleShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/CircleShape#getToolTip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/CircleShape#getToolType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/CircleShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,441"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/CircleShape-Standard::Call->Core/GraphicsUtils" source="//@children.7" target="//@children.1" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,225"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/CircleShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,355"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/CircleShape" source="//@children.7" target="//@children.9/@sourceConnections.2" targetEnd="//@children.7/@sourceConnections.3/@children.1" sourceEnd="//@children.7/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.10/@sourceConnections.3" name="TriangleShape" location="1576,2645" size="136,211" id="Core.plugins/TriangleShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),getShapeName(),getToolTip(),draw(Lorg.eclipse.swt.graphics.GC;),getIconPath(),addable(),TriangleShape(),calculateCenter(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,162">
+      <children xsi:type="editmodel:MethodEditModel" name="TriangleShape" id="Core.plugins/TriangleShape#TriangleShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/TriangleShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateCenter" id="Core.plugins/TriangleShape#calculateCenter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/TriangleShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/TriangleShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/TriangleShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/TriangleShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/TriangleShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/TriangleShape#getToolTip()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/TriangleShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,321"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/TriangleShape-Standard::Call->Core/GraphicsUtils" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,218"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/TriangleShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,35" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,246"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/TriangleShape" source="//@children.8" target="//@children.9/@sourceConnections.2" targetEnd="//@children.8/@sourceConnections.3/@children.1" sourceEnd="//@children.8/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.1" name="FreePenShape" location="591,2645" size="137,211" id="Core.plugins/FreePenShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),FreePenShape(),getShapeName(),getToolType(),getToolTip(),draw(Lorg.eclipse.swt.graphics.GC;),getIconPath(),addable(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,162">
+      <children xsi:type="editmodel:MethodEditModel" name="FreePenShape" id="Core.plugins/FreePenShape#FreePenShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/FreePenShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/FreePenShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/FreePenShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/FreePenShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/FreePenShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/FreePenShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/FreePenShape#getToolTip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/FreePenShape#getToolType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/FreePenShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.9" target="//@children.3" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,388"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/FreePenShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,32" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,248"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.3 //@children.7/@sourceConnections.3 //@children.10/@sourceConnections.4 //@children.11/@sourceConnections.3 //@children.12/@sourceConnections.2 //@children.8/@sourceConnections.3" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/FreePenShape" source="//@children.9" target="//@children.4" targetEnd="//@children.9/@sourceConnections.2/@children.1" sourceEnd="//@children.9/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,22" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,258" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PolygonShape" location="1075,2645" size="135,229" id="Core.plugins/PolygonShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),addPoint(II),getShapeName(),getToolType(),getToolTip(),draw(Lorg.eclipse.swt.graphics.GC;),getIconPath(),PolygonShape(),addable(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,180">
+      <children xsi:type="editmodel:MethodEditModel" name="PolygonShape" id="Core.plugins/PolygonShape#PolygonShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/PolygonShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/PolygonShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/PolygonShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/PolygonShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/PolygonShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/PolygonShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/PolygonShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/PolygonShape#getToolTip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/PolygonShape#getToolType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="Core.plugins/TriangleShape@triShape+Core.plugins/PolygonShape@" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,105" id="Core.plugins/TriangleShape@triShape+Core.plugins/PolygonShape@|Core.plugins/PolygonShape#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="triShape" location="0,105" id="Core.plugins/TriangleShape@triShape+Core.plugins/PolygonShape@|Core.plugins/TriangleShape#triShape" multiplicityLabel="//@children.10/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.10/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - triShape" location="1519,2729" size="50,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1551,2757" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/PolygonShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="7,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,441"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/PolygonShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,355"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/PolygonShape-Standard::Call->Core.plugins/TriangleShape*Core.plugins/PolygonShape-Standard::Instantiate->Core.plugins/TriangleShape*Core.plugins/PolygonShape-Soyatec::Import->Core.plugins/TriangleShape" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.3/@children.2" label="//@children.10/@sourceConnections.3/@children.0" sourceEnd="//@children.10/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,74"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/PolygonShape" source="//@children.10" target="//@children.9/@sourceConnections.2" targetEnd="//@children.10/@sourceConnections.4/@children.1" sourceEnd="//@children.10/@sourceConnections.4/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0" name="NullShape" location="1240,2645" size="129,121" id="Core.plugins/NullShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),getAddedPoints(),getInstance(),addable(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,72">
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/NullShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/NullShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/NullShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAddedPoints" id="Core.plugins/NullShape#getAddedPoints()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="Core.plugins/NullShape@instance+Core.plugins/NullShape@" source="//@children.11" target="//@children.11" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="instance" location="0,20" id="Core.plugins/NullShape@instance+Core.plugins/NullShape@|Core.plugins/NullShape#instance" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.0/@children.1/@children.2" roleLabel="//@children.11/@sourceConnections.0/@children.1/@children.0" orderingLabel="//@children.11/@sourceConnections.0/@children.1/@children.1" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - instance" location="1182,2672" size="51,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="1199,2644" size="34,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1215,2686" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="Core.plugins/NullShape@instance+Core.plugins/NullShape@|Core.plugins/NullShape#" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/NullShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,434"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/NullShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.11" target="//@children.4" targetEnd="//@children.11/@sourceConnections.2/@children.2" label="//@children.11/@sourceConnections.2/@children.0" sourceEnd="//@children.11/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,355"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/NullShape" source="//@children.11" target="//@children.9/@sourceConnections.2" targetEnd="//@children.11/@sourceConnections.3/@children.1" sourceEnd="//@children.11/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RectangleShape" location="1399,2645" size="147,229" id="Core.plugins/RectangleShape" runTimeClassModel="draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;),getShapeName(),addPoint(II),getToolType(),getToolTip(),draw(Lorg.eclipse.swt.graphics.GC;),getIconPath(),RectangleShape(),addable(),copy()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,180">
+      <children xsi:type="editmodel:MethodEditModel" name="RectangleShape" id="Core.plugins/RectangleShape#RectangleShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPoint" id="Core.plugins/RectangleShape#addPoint(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addable" id="Core.plugins/RectangleShape#addable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="Core.plugins/RectangleShape#copy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/RectangleShape#draw(Lorg.eclipse.swt.graphics.GC;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="Core.plugins/RectangleShape#draw(Lorg.eclipse.swt.graphics.GC;Lorg.eclipse.swt.graphics.Point;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIconPath" id="Core.plugins/RectangleShape#getIconPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShapeName" id="Core.plugins/RectangleShape#getShapeName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolTip" id="Core.plugins/RectangleShape#getToolTip()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getToolType" id="Core.plugins/RectangleShape#getToolType()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/RectangleShape-Soyatec::Import->Core.plugins/ShapeIF" source="//@children.12" target="//@children.3" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,361"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="Core.plugins/RectangleShape-Standard::Derive->Core.plugins/AbstractShape" source="//@children.12" target="//@children.4" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,284"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="Core.plugins/AbstractShape&lt;-Core.plugins/RectangleShape" source="//@children.12" target="//@children.9/@sourceConnections.2" targetEnd="//@children.12/@sourceConnections.2/@children.1" sourceEnd="//@children.12/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
