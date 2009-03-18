@@ -61,7 +61,7 @@ public class MenuBarUnit {
 
 	private Shell shell;
 	private Display display;
-	private static final String IMAGE_PATH = "MenuBar\\";
+	private static final String IMAGE_PATH = "MenuBar//";
 	private ArrayList<Image> images;
 	private boolean previouslySaved;
 	private int previousType;
@@ -120,7 +120,7 @@ public class MenuBarUnit {
 		});
 		MenuItem flipVertical = new MenuItem(toolsMenu, SWT.PUSH);
 		flipVertical.setText("Flip vertical");
-		registerImage(flipVertical, "flipVertical");
+		registerImage(flipVertical, "flipvertical");
 		flipVertical.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				flipVertical();
@@ -153,7 +153,7 @@ public class MenuBarUnit {
 		});
 		MenuItem imageMode = new MenuItem(toolsMenu, SWT.PUSH);
 		imageMode.setText("Image Mode");
-		registerImage(imageMode, "imageMode");
+		registerImage(imageMode, "imagemode");
 		imageMode.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
 				new Thread(new ImageMode()).start();
@@ -244,7 +244,7 @@ public class MenuBarUnit {
 
 		MenuItem print = new MenuItem(fileMenu, SWT.PUSH);
 		print.setText("Print    CRL+P");
-		registerImage(print, "printer");
+		registerImage(print, "Printer");
 		print.setAccelerator(SWT.MOD1 | 'P');
 		print.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
@@ -254,7 +254,7 @@ public class MenuBarUnit {
 
 		MenuItem exit = new MenuItem(fileMenu, SWT.PUSH);
 		exit.setText("Exit    ALT+X");
-		registerImage(exit, "Exit");
+		registerImage(exit, "exit");
 		exit.setAccelerator(SWT.ALT | 'X');
 		exit.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent e) {
