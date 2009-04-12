@@ -372,6 +372,7 @@ public class SelectTool extends AbstractTool {
 			rectangle.y -= 5;
 			rectangle.width += 10;
 			rectangle.height += 10;
+			gc.setLineWidth(1);
 			gc.drawRectangle(rectangle);
 			gc.setLineStyle(SWT.LINE_CUSTOM);
 		}
