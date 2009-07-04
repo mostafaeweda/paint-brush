@@ -42,6 +42,7 @@ public class RibbonTester {
 	/**
 	 * @param args
 	 */
+	@SuppressWarnings("unused")
 	public static void main(String args []) {
 		Display display = new Display();
 		final RibbonShell shell = new RibbonShell(display);
@@ -50,7 +51,7 @@ public class RibbonTester {
 		
 		shell.setText("SWT Ribbon Tester");
 		shell.setSize(714, 500);
-		
+
 		Text text = new Text(shell.getShell(), SWT.BORDER);
 		
 		QuickAccessShellToolbar mtb = shell.getToolbar();
